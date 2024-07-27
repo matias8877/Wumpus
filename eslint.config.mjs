@@ -1,5 +1,4 @@
 import globals from "globals";
-import tseslint from "typescript-eslint";
 
 export default [
   {
@@ -27,5 +26,4 @@ export default [
       "@typescript-eslint/no-explicit-any": "off"
     },
   },
-  ...tseslint.configs.recommended,
 ];
